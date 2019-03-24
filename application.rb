@@ -2,9 +2,10 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-    resp.write "Hello, World"
+    resp.write "Hello, my name is J"
     resp.finish
   end
 
-end
+  @hearteyes = "\u{1F60D}"
 
+end
