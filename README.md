@@ -1,12 +1,12 @@
-# Inspecting The Web With Rack
+sl# Inspecting The Web With Rack
 
 ##  Objectives
 
-1. Explain the mechanics of Rack 
-2. Create a basic web app 
+1. Explain the mechanics of Rack
+2. Create a basic web app
 3. Set up an HTTP web server using a `config.ru` file and the `rackup` command
 
-## Why Rack? 
+## Why Rack?
 
 How does a web server work?
 
@@ -71,7 +71,7 @@ html_from_file = File.open("my_html.html").readlines
 
 ## Creating a Rack-Based Web Server
 
-Using this, let's create a basic web app. Follow along with the below instructions. 
+Using this, let's create a basic web app. Follow along with the below instructions.
 
 Let's create a file called `first.ru`. Files that are used by Rack end with
 `.ru` instead of `.rb` because they're normally loaded with a command called
